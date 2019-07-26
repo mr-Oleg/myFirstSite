@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ПДД 2018</title>
+		<meta name="keyword" content="ПДД,правила дорожного движения,подготовка к экзамену,теоритические знания,нововведения 2018"/>
+		<meta name="description" content="musthave для будущего водителя"/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <main>
+	 <table class="menu">
+         	<nav>
+	            <tr>
+	               	<td width="16%"><a href="index.html"><p align="center">Главная</p></a></td>
+	               	<td width="17%"><a href="theory.html"><p align="center">Правила</p></a></td>
+	               	<td width="16%"><a href="signs.html"><p align="center">Знаки</p></a></td>
+	               	<td width="17%"><a href="markup.html"><p align="center">Разметка</p></a></td>
+	               	<td width="17%"><a href="1.html"><p align="center">Тест</p></a></td>
+					<td width="17%"><a href="fines.html"><p align="center">Штрафы</p></a></td>
+	           	</tr>
+	        </nav>
+		</table>
+	<br>
+
+
+	 <button class="butmen" onclick="cake()">Меню</button>
+
+       <nav>
+         	<div class="menu123" id="menu123">
+	            <a href="index.html"><p align="center">Главная</p></a>
+	            <a href="theory.html"><p align="center">Правила</p></a>
+	           <!-- <a href="signs.html"><p align="center">Знаки</p></a>-->
+	           	<a href="markup.html"><p align="center">Разметка</p></a>
+	            <a href="1.html"><p align="center">Тест</p></a>
+				<!-- <a href="fines.html"><p align="center">Штрафы</p></a> -->
+			</div>
+	   	</nav>
+
+
+
+
+	<div>
+		<div id="area" class="wrapper">
+			<b><p class="question" id="question"></p></b>
+			<img src="" id="myImg" class="qupic" border="0" width="50%">	
+			<br>
+			<button onclick="check(0)" class="myButton" id="option1" onclick="pic()"></button>
+			<br>
+			<button onclick="check(1)" class="myButton" id="option2" onclick="pic()"></button>
+			<br>
+			<button onclick="check(2)" class="myButton" id="option3" onclick="pic()"></button>
+			<br>
+			<button onclick="check(3)" class="myButton" id="option4" onclick="pic()"></button>
+		</div>
+	</div>	
+	<br>
+	<div class="div12">
+		<button id="start" class="myButton1" onclick="check(21)">Приступить к тесту</button>
+		<script type="text/javascript"> var curent_url = document.URL; document.write("<a id='end' style='display: none;' class='myButton' href='" + curent_url + "'>Начать сначала</a>"); </script>
+	</div>
+
+
+	<div class="rez" id="result">
+
+		<p class="number" id="num1"></p>
+		<p class="useranswer" id="us1"></p>
+		<p class="trueanswer" id="t1"></p>
+		<img id="img1" class="testimg" src="">
+		<br>
+		<p class="number" id="num2">2</p>
+		<p class="useranswer" id="us2"></p>
+		<p class="trueanswer" id="t2"></p>
+		<img id="img2" class="testimg" src="">
+		<br>
+		<p class="number" id="num4">3</p>
+		<p class="useranswer" id="us3"></p>
+		<p class="trueanswer" id="t3"></p>
+		<img id="img3" class="testimg" src="">
+		<br>
+		<p class="number" id="num4">4</p>
+		<p class="useranswer" id="us4"></p>
+		<p class="trueanswer" id="t4"></p>
+		<img id="img4" class="testimg" src="">
+		<br>
+		<p class="number" id="num5">5</p>
+		<p class="useranswer" id="us5"></p>
+		<p class="trueanswer" id="t5"></p>
+		<img id="img5" class="testimg" src="">
+		<br>
+		<p class="number" id="num6">6</p>
+		<p class="useranswer" id="us6"></p>
+		<p class="trueanswer" id="t6"></p>
+		<img id="img6" class="testimg" src="">
+		<br>
+		<p class="number" id="num7">7</p>
+		<p class="useranswer" id="us7"></p>
+		<p class="trueanswer" id="t7"></p>
+		<img id="img7" class="testimg" src="">
+		<br>
+		<p class="number" id="num8">8</p>
+		<p class="useranswer" id="us8"></p>
+		<p class="trueanswer" id="t8"></p>
+		<img id="img8" class="testimg" src="">
+		<br>
+		<p class="number" id="num9">9</p>
+		<p class="useranswer" id="us9"></p>
+		<p class="trueanswer" id="t9"></p>
+		<img id="img9" class="testimg" src="">
+		<br>
+		<p class="number"  id="num10">10</p>
+		<p class="useranswer" id="us10"></p>
+		<p class="trueanswer" id="t10"></p>
+		<img id="img10" class="testimg" src="">
+		<br>
+		<p class="number" id="num11">11</p>
+		<p class="useranswer" id="us11"></p>
+		<p class="trueanswer" id="t11"></p>
+		<img id="img11" class="testimg" src="">
+		<br>
+		<p class="number" id="num12">12</p>
+		<p class="useranswer" id="us12"></p>
+		<p class="trueanswer" id="t12"></p>
+		<img id="img12" class="testimg" src="">
+		<br>
+		<p class="number" id="num13">13</p>
+		<p class="useranswer" id="us13"></p>
+		<p class="trueanswer" id="t13"></p>
+		<img id="img13" class="testimg" src="">
+		<br>
+		<p class="number" id="num14">14</p>
+		<p class="useranswer" id="us14"></p>
+		<p class="trueanswer" id="t14"></p>
+		<img id="img14" class="testimg" src="">
+		<br>
+		<p class="number" id="num15">15</p>
+		<p class="useranswer" id="us15"></p>
+		<p class="trueanswer" id="t15"></p>
+		<img id="img15" class="testimg" src="">
+		<br>
+		<p class="number" id="num16">16</p>
+		<p class="useranswer" id="us16"></p>
+		<p class="trueanswer" id="t16"></p>
+		<img id="img16" class="testimg" src="">
+		<br>
+		<p class="number" id="num17">17</p>
+		<p class="useranswer" id="us17"></p>
+		<p class="trueanswer" id="t17"></p>
+		<img id="img17" class="testimg" src="">
+		<br>
+		<p class="number" id="num18">18</p>
+		<p class="useranswer" id="us18"></p>
+		<p class="trueanswer" id="t18"></p>
+		<img id="img18" class="testimg" src="">
+		<br>
+		<p class="number" id="num19">19</p>
+		<p class="useranswer" id="us19"></p>
+		<p class="trueanswer" id="t19"></p>
+		<img id="img19" class="testimg" src="">
+		<br>
+		<p class="number" id="num20">20</p>
+		<p class="useranswer" id="us20"></p>
+		<p class="trueanswer" id="t20"></p>
+		<img id="img20" class="testimg" src="">
+
+	</div>
+
+
+
+	<footer>
+		</br>
+			<hr>
+			<small><p align="left">Обратная связь</p></small>
+			<address>
+				<p align="left">ol.belorusow@yandex.ru</p>
+				<p align="left">timohin.ivan64rus@mail.ru<p>
+			<address/>
+	</footer>
+	</main>	
+	<script src="js123.js"></script>
+	<script src="js.js"></script>
+	</body>
+	</html>
